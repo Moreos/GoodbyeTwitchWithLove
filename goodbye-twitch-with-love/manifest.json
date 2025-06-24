@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Goodbye Twitch with Love",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Самое важно расширение для пользователей Twitch в РФ",
     "permissions": [
         "scripting",
@@ -12,6 +12,9 @@
     ],
     "background": {
         "service_worker": "background.js"
+    },
+    "icons": {
+        "128": "icons/icon128.png"
     },
     "action": {
         "default_title": "Goodbye Twitch with Love"
